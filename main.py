@@ -17,8 +17,6 @@ from random import randint
 
 SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 750
-pygame.font.init()
-FONT = pygame.font.SysFont("Comic Sans MS", 40)
 
 
 class ColorButton(pygame.sprite.Sprite):
