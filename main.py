@@ -75,13 +75,13 @@ class Game:
         self.last_pos = None
         self.color = "#FF6700"
         self.color_btn = ColorButton()
-        
+
     def set_screen(self):
         self.screen.fill("White")
         for i in range(1, 25):
             pygame.draw.line(
                     self.screen,
-                    "Light Blue", 
+                    "Light Blue",
                     (0, i * 30),
                     (SCREEN_WIDTH, i * 30)
                     )
