@@ -7,6 +7,6 @@ Only **two**!
 - Yellow highlighter
 
 ### Controls
-- CMD-X: Reset screen
-- CMD-S: Save creation
-- Click the black outlined button to switch colors!
+- *CMD-X*: Reset screen
+- *CMD-S*: Save creation
+- *Click* the black outlined button to switch colors!
