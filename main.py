@@ -14,6 +14,7 @@ import sys
 import math
 from itertools import cycle
 from random import randint
+from os import mkdir
 
 SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 750
@@ -58,6 +59,11 @@ class ColorButton(pygame.sprite.Sprite):
 
 class Game:
     def __init__(self):
+        try:
+            # Creates a folder for saved images
+            mkdir("creations")
+        except FileExistsError:
+            pass
         # -Setup-
         pygame.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -100,7 +106,7 @@ class Game:
                         if mods & KMOD_META:
                             pygame.image.save(
                                     self.screen,
-                                    f"Masterpiece-{randint(1, 10000)}.png")
+                                    f"creations/masterpiece-{randint(1, 10000)}.png")
 
                     elif event.key == K_x:
                         # Resets screen
