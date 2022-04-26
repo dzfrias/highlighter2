@@ -1,2 +1,12 @@
 # Higlighter 2
-A quick drawing app made in pygame. There are only two colors, orange highlighter and yellow highlighter. Press CMD-X to reset the drawing, CMD-S to save the drawing, and the black outlined button to switch colors.
+A quick drawing app made in pygame.
+
+### Colors
+Only **two**!
+- Orange highlighter
+- Yellow highlighter
+
+### Controls
+- CMD-X: Reset screen
+- CMD-S: Save creation
+- Click the black outlined button to switch colors!
